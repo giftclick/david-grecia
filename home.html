@@ -59,15 +59,15 @@
     </div>
     <div id="png-container">
     </div>
-    <div style="height: 300px;">
-        <div class="names">
-            <h1 class="name-special">David<br>y Grecia</h1>
+    <div
+        style="margin-top: 350px; height: 300px; background: url('marco.png') center center no-repeat; background-size: contain; position: relative;">
+        <div class="names" style="position: absolute; width: 100%; top: 10px; left: 0;">
+            <h1 class="name-special" style="font-size: 2.5em;">David<br>y Grecia</h1>
         </div>
-        <div class="lineH">
+        <div class="lineH" style="position: absolute; width: 100%; top: 180px; left: 0;">
             <div class="heart"></div>
         </div>
-        <div class="containerf">
-        </div>
+        <div class="containerf"></div>
         <script src="script2.js" defer></script>
     </div>
     <div class="names">
@@ -174,7 +174,7 @@
     <div class="names">
         <h1 class="name-2">CONFIRMA TU</h1>
         <p class="letering">Asistencia</p>
-        <p class="name">Nota: Invitación personal, sin niños. <br> confirmación limite hasta el 3 de junio.</p>
+        <p class="name">Nota: Invitación personal, Los niños tienen una mesa especial. <br> confirmación limite hasta el 3 de junio.</p>
         <div class="lineY">
             <div class="heart"></div>
         </div>
@@ -182,7 +182,7 @@
     <div class="backhome">
         <a href="#" class="b2" id="back-to-invitation">VOLVER A INVITACIÓN</a>
         <script>
-            document.getElementById('back-to-invitation').addEventListener('click', function(e) {
+            document.getElementById('back-to-invitation').addEventListener('click', function (e) {
                 e.preventDefault();
                 const query = window.location.search;
                 window.location.href = 'index.html' + query;
